@@ -40,7 +40,7 @@ print(efi_tec06)
 summary(efi_tec06)
 peers(est06,NAMES=TRUE) ####Benchmarks
 
-incre06<-data.frame(y*(est06$eff-1)) ##### Incremento existênte
+incre06<-data.frame(y*(est06$eff-1)) ##### Incremento existente
 meta06<-data.frame(y+y*(est06$eff-1)) #####S
 
 (1-est06$eff)*x
